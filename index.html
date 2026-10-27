@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Portfolio - Thọ Bùi</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #29234d;
+      background: linear-gradient(135deg, #f1eaff, #ffe8f1);
+    }
+    header {
+      padding: 20px;
+      text-align: center;
+      background: white;
+    }
+    nav a {
+      margin: 0 10px;
+      color: #7450df;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+    .hero, .card {
+      background: white;
+      padding: 30px;
+      border-radius: 24px;
+      margin-bottom: 20px;
+      box-shadow: 0 8px 25px #51408012;
+    }
+    .hero { text-align: center; }
+    .avatar { font-size: 75px; }
+    h1 { font-size: 42px; color: #7654e8; }
+    h2 { color: #7654e8; }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+    }
+    .button {
+      display: inline-block;
+      padding: 12px 20px;
+      background: #7654e8;
+      color: white;
+      text-decoration: none;
+      border-radius: 12px;
+    }
+    footer { text-align: center; padding: 25px; }
+  </style>
+</head>
+<body>
+  <header>
+    <strong>✨ MY PORTFOLIO</strong>
+    <nav>
+      <a href="#about">Giới thiệu</a>
+      <a href="#hobbies">Sở thích</a>
+      <a href="#skills">Kỹ năng</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="avatar">🧑‍💻</div>
+      <h1>Xin chào! Mình là Thọ Bùi</h1>
+      <p>Chào mừng bạn đến với trang web giới thiệu bản thân của mình!</p>
+      <p>Mình đang học tập, khám phá công nghệ và tìm hiểu lập trình.</p>
+      <a class="button" href="#about">Khám phá thêm ↓</a>
+    </section>
+
+    <section class="card" id="about">
+      <h2>👋 Về mình</h2>
+      <p>Mình là người yêu thích học hỏi, sáng tạo và khám phá những điều mới.
+      Mình đang từng bước học lập trình để có thể tự xây dựng website của riêng mình.</p>
+    </section>
+
+    <section class="card" id="hobbies">
+      <h2>🎨 Sở thích</h2>
+      <div class="cards">
+        <article><h3>💻 Công nghệ</h3><p>Tìm hiểu máy tính và lập trình.</p></article>
+        <article><h3>🎮 Giải trí</h3><p>Thư giãn với những hoạt động yêu thích.</p></article>
+        <article><h3>📚 Học tập</h3><p>Khám phá kiến thức mới mỗi ngày.</p></article>
+      </div>
+    </section>
+
+    <section class="card" id="skills">
+      <h2>🚀 Kỹ năng đang học</h2>
+      <div class="cards">
+        <article>🌐 HTML</article>
+        <article>🎨 CSS</article>
+        <article>⚡ JavaScript</article>
+        <article>🐍 Python</article>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>💌 Kết nối</h2>
+      <p>Bạn có thể xem các dự án của mình trên GitHub.</p>
+      <a class="button" href="https://github.com/thobld1102-droid">
+        GitHub của mình ↗
+      </a>
+    </section>
+  </main>
+
+  <footer>© 2026 Thọ Bùi · Made with 💜</footer>
+</body>
+</html>
